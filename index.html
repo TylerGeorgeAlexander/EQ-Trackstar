@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>Raid Mob Tracker</header>
+  <header>EverTrack - Raid Mob Tracker</header>
   <div class="container">
-    <h2>Track Mobs</h2>
+    <h2>Tracked Raid Mobs</h2>
     <table>
       <thead>
         <tr>
           <th>Mob Name</th>
-          <th>Spawn Timer</th>
-          <th>Variance</th>
-          <th>Assigned Players</th>
-          <th>Status</th>
+          <th>Zone</th>
+          <th>Respawn Time</th>
+          <th>Location</th>
+          <th>HP</th>
         </tr>
       </thead>
       <tbody id="mob-list">
@@ -29,8 +29,10 @@
     <div class="form-container">
       <label for="mob-select">Select Mob:</label>
       <select id="mob-select"></select>
+
       <label for="character-name">Character Name:</label>
       <input type="text" id="character-name">
+
       <label for="class-select">Class:</label>
       <select id="class-select">
         <option>Warrior</option>
@@ -48,8 +50,10 @@
         <option>Shadowknight</option>
         <option>Ranger</option>
       </select>
+
       <label for="level">Level:</label>
       <input type="number" id="level" min="1" max="60">
+
       <button id="assign-btn">Assign</button>
     </div>
 
@@ -58,6 +62,7 @@
     </div>
   </div>
 
-  <script src="script.js" defer></script>
+  <!-- Import JavaScript -->
+  <script type="module" src="script.js"></script>
 </body>
 </html>
