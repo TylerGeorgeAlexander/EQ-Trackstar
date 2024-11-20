@@ -4,6 +4,15 @@
 
 ---
 
+## Demo
+
+Experience **EverTrack** in action!  
+[**Live Demo**](https://tylergeorgealexander.github.io/EverTrack/)
+
+Visit the demo to explore the full feature set, including mob tracking, player assignments, and readiness indicators. It's optimized for easy use by both casual players and guild leaders organizing raids.
+
+---
+
 ## Features
 
 - **Comprehensive Mob Tracking**: View spawn timers, variance, and readiness status for all key raid mobs.
@@ -95,4 +104,5 @@ This project is licensed under the [MIT License](LICENSE).
 For questions, suggestions, or feedback, reach out.
 
 Happy raiding! 🎮
+
 
